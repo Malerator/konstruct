@@ -1,0 +1,46 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "OpenSans-Bold", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  background-color: #f2f2f2;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 940px;
+  box-sizing: content-box;
+}
+
+@font-face {
+  font-family: "Bebas";
+  src: url("../fonts/BebasNeueRegular.woff") format("woff"),
+    url("../fonts/BebasNeueRegular.woff2") format("woff2"),
+    url("../fonts/BebasNeue\ Regular.otf") format("otf"),
+    url("../fonts/BebasNeue\ Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: url("../fonts/OpenSans-Regular.woff") format("woff"),
+    url("../fonts/OpenSans-Regular.woff2") format("woff2"),
+    url("../fonts/OpenSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: url("../fonts/OpenSans-Bold.woff") format("woff"),
+    url("../fonts/OpenSans-Bold.woff2") format("woff2"),
+    url("../fonts/OpenSans-Regular.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
