@@ -4,7 +4,7 @@ header {
   background-position: center;
   padding: 42px 71px;
 }
-header img {
+.header__logo {
   display: block;
   margin: 0 auto;
 }
@@ -18,7 +18,7 @@ h1 {
   line-height: 72px;
   color: #ffffff;
 }
-header p {
+.header__subtitle {
   text-align: center;
   color: #ffffff;
   font-family: "OpenSans-Bold";
@@ -27,12 +27,11 @@ header p {
   line-height: 22px;
 }
 
-header a {
+.header__a {
   display: block;
   margin-top: 221px;
   text-align: center;
   letter-spacing: 4px;
-  text-decoration: none;
   font-family: "OpenSans", sans-serif;
   font-weight: 700;
   font-size: 11px;

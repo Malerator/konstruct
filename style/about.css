@@ -1,0 +1,19 @@
+.wrapper__about {
+  padding: 48px 0 129px;
+}
+
+.about__h2 {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 2;
+  text-align: center;
+}
+
+.line__h2 {
+  margin: 11px auto 0;
+  border: 1px solid #00a4e5;
+  max-width: 50px;
+  height: 0px;
+}

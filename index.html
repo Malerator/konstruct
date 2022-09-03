@@ -8,30 +8,46 @@
     <link rel="stylesheet" href="./style/reset.css" />
     <link rel="stylesheet" href="./style/style.css" />
     <link rel="stylesheet" href="./style/header.css" />
+    <link rel="stylesheet" href="./style/nav.css" />
+    <link rel="stylesheet" href="./style/about.css" />
   </head>
   <body>
     <header>
-      <img src="./images/projeco-logo.png" alt="logo" />
-      <h1>PARTNER WITH KONSTUCT</h1>
-      <p>An award-winning construction management firm</p>
-      <a href="#">SCROLL DOWN</a>
+      <section #home>
+        <img class="header__logo" src="./images/projeco-logo.png" alt="logo" />
+        <h1>partner with konstrukt</h1>
+        <p class="header__subtitle">
+          An award-winning construction management firm
+        </p>
+        <a class="header__a" href="#">SCROLL DOWN</a>
+      </section>
     </header>
     <main>
-      <nav>
-        <div class="menu">
+      <div class="main__nav">
+        <div class="main__logo">
           <img src="./images/projeco-logo-black.png" alt="logo" />
-          <ul>
-            <li><a href="">home</a></li>
-            <li><a href="">about</a></li>
-            <li><a href="">services</a></li>
-            <li><a href="">work</a></li>
-            <li><a href="">contact</a></li>
-          </ul>
         </div>
-      </nav>
-      <section>
-        <div></div>
+        <nav>
+          <ul class="nav">
+            <li><a class="nav__link" href="#home">home</a></li>
+            <li><a class="nav__link" href="#about">about</a></li>
+            <li><a class="nav__link" href="#services">services</a></li>
+            <li><a class="nav__link" href="#work">work</a></li>
+            <li><a class="nav__link" href="#contacts">contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <section #about>
+        <div class="container">
+          <div class="wrapper__about">
+            <h2 class="about__h2">our story</h2>
+            <div class="line__h2"></div>
+          </div>
+        </div>
       </section>
+      <section #services></section>
+      <section #work></section>
+      <section #contacts></section>
     </main>
   </body>
 </html>

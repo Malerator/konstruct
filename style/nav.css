@@ -1,3 +1,29 @@
-.menu {
+.main__nav {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 218px 24px 251px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav__link {
+  margin-right: 39px;
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  color: #48555b;
+  transition: 0.2s;
+}
+
+.nav__link:hover {
+  color: #00a4e5;
+  transition: 0.2s;
 }
