@@ -1,0 +1,51 @@
+#contacts {
+  background-color: #171819;
+}
+
+.contacts__form {
+  padding: 30px 342px;
+}
+
+.contacts__h2 {
+  margin-right: 70px;
+  font-family: "OpenSans" sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+
+.form {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.form__input {
+  background-color: #ffffff;
+  font-family: "OpenSans" sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #48555b;
+  padding: 11px 98px 10px 16px;
+}
+
+.button {
+  background-color: #00a4e5;
+  font-family: "OpenSans" sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  text-align: center;
+  padding: 11px 49px;
+  transition: 0.2s;
+}
+
+.button:hover {
+  color: #48555b;
+  transition: 0.2s;
+}

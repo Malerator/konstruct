@@ -10,10 +10,14 @@
     <link rel="stylesheet" href="./style/header.css" />
     <link rel="stylesheet" href="./style/nav.css" />
     <link rel="stylesheet" href="./style/about.css" />
+    <link rel="stylesheet" href="./style/services.css">
+    <link rel="stylesheet" href="./style/work.css">
+    <link rel="stylesheet" href="./style/contacts.css">
+    <link rel="stylesheet" href="./style/footer.css">
   </head>
   <body>
     <header>
-      <section #home>
+      <section id="home">
         <img class="header__logo" src="./images/projeco-logo.png" alt="logo" />
         <h1>partner with konstrukt</h1>
         <p class="header__subtitle">
@@ -24,7 +28,7 @@
     </header>
     <main>
       <div class="main__nav">
-        <div class="main__logo">
+        <div>
           <img src="./images/projeco-logo-black.png" alt="logo" />
         </div>
         <nav>
@@ -37,17 +41,91 @@
           </ul>
         </nav>
       </div>
-      <section #about>
+      <section id="about">
         <div class="container">
           <div class="wrapper__about">
-            <h2 class="about__h2">our story</h2>
-            <div class="line__h2"></div>
+            <h2 class="about__h2">OUR STORY</h2>
+              <div class="line__h2"></div>
+                <div class="about__items">
+                  <div class="about__text">
+                    <span class="about__span">Founded in 2011 by John Mathew Smith,
+                      <span class="colortext">Konstruct</span> has become the number
+                      one construction management
+                    </span>
+                      <p class="about__p">
+                          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                          diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                          aliquam erat. Lorem ipsum dolor sit amet, consectetuer
+                          adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                          laoreet dolore magna aliquam erat.
+                      </p>
+                  </div>
+                      <div class="cards">
+                        <div class="card1">
+                          <a class="card__content" href="#">WE <br>PLAN</a>
+                        </div>
+                        <div class="card2">
+                          <a class="card__content" href="#">We <br> MANAGE</a>
+                        </div>
+                        <div class="card3">
+                          <a class="card__content" href="#">WE <br> BUILD</a>
+                        </div>
+                      </div>
+                  </div>
           </div>
+      </section>
+      <section id="services">
+        <div class="container">
+        <div class="services__header">
+          <div class="services__header--h2">
+          <h2 class="about__h2">OUR CAPABILITIES</h2>
+          <div class="line__h2"></div>
+          </div>
+          <p class="services__p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam <br> nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.
+          </p>
+          <button class="services__btn"><a class="services__btn--a" href="#">ALL SERVICES</a></button>
+        </div>
+        <div class="services__items">
+          <div class="services__card">
+            <img src="./images/bitmap.svg" alt="">
+            <h3 class="services__h3">PROJECT AND CONSTRUCTION MANAGEMENT</h3>
+            <p class="services__card--text">Lorem ipsum dolor sit amet, <br> consectetuer adipiscing elit, sed diam <br> nonummy nibh euismod tincidunt ut <br> laoreet dolore magna aliquam erat.</p>
+          </div>
+          <div class="services__card">
+            <img src="./images/bitmap1.svg" alt="">
+            <h3 class="services__h3">STRUCTURE AUDIT AND MAINTENANCE</h3>
+            <p class="services__card--text">Lorem ipsum dolor sit amet, <br> consectetuer adipiscing elit, sed diam <br> nonummy nibh euismod tincidunt ut <br> laoreet dolore magna aliquam erat.</p>
+          </div>
+          <div class="services__card">
+            <img src="./images/bitmap2.svg" alt="">
+            <h3 class="services__h3">FACTORY CONSTRUCTION AND MODELING</h3>
+            <p class="services__card--text">Lorem ipsum dolor sit amet, <br> consectetuer adipiscing elit, sed diam <br> nonummy nibh euismod tincidunt ut <br> laoreet dolore magna aliquam erat.</p>
+          </div>
+         </div>
         </div>
       </section>
-      <section #services></section>
-      <section #work></section>
-      <section #contacts></section>
+      <section id="work">
+        <div class="work">
+        <div class="container">
+          <h2 class="work__h2">Want to build something amazing?</h2>
+          <button class="work__btn"><a class="work__btn--a" href="#">GET IN TOUCH</a></button>
+        </div>
+        </div>
+      </section>
+      <section id="contacts">
+          <div class="contacts__form">
+        <form class="form">
+          <h2 class="contacts__h2">Newsletter Signup</h2>
+          <input class="form__input" placeholder="test@youremail.com" id="mail" type="email">
+          <label class="button" for="mail">SIGNUP</label>
+        </form>
+        </div>
+      </section>
     </main>
-  </body>
+    <footer>
+      <div class="conteiner">
+        <p class="footer__content">© 2017 Konstruct Inc. Designed by Jane Kathryn Teo</p>
+      </div>
+    </footer>
+  </body> 
 </html>

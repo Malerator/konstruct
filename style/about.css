@@ -3,12 +3,13 @@
 }
 
 .about__h2 {
-  font-family: Open Sans;
+  font-family: "OpenSans" sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 25px;
   letter-spacing: 2;
   text-align: center;
+  color: #48555b;
 }
 
 .line__h2 {
@@ -16,4 +17,84 @@
   border: 1px solid #00a4e5;
   max-width: 50px;
   height: 0px;
+}
+
+.about__items {
+  margin-top: 77px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__span {
+  display: block;
+  font-family: "OpenSans" sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: left;
+  color: #48555b;
+}
+
+.colortext {
+  color: #16ace8;
+}
+
+.about__text {
+  display: block;
+  max-width: 405px;
+  color: #48555b;
+}
+
+.about__p {
+  margin-top: 30px;
+  font-family: "OpenSans" sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card1 {
+  background-image: url("../images/bitm.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 140px;
+  height: 222px;
+  padding: 15px 0 0 14px;
+}
+
+.card2 {
+  background-image: url("../images/bitm1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 140px;
+  height: 222px;
+  padding: 15px 0 0 14px;
+}
+
+.card3 {
+  background-image: url("../images/bitm2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 140px;
+  height: 222px;
+  padding: 15px 0 0 14px;
+}
+
+.card__content {
+  font-family: "OpenSans" sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  color: #ffffff;
+  transition: 0.2s;
+}
+
+.card__content:hover {
+  color: #00a4e5;
+  transition: 0.2s;
 }

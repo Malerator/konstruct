@@ -1,0 +1,32 @@
+.work {
+  background-image: url("../images/bg1.jpg");
+  padding: 120px 0 231px;
+}
+
+.work__h2 {
+  display: block;
+  margin: 0 auto;
+  max-width: 350px;
+  font-family: "OpenSans" sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  color: #48555b;
+}
+
+.work__btn {
+  display: block;
+  margin: 35px auto 0;
+  background-color: #00a4e5;
+  padding: 11px 26px;
+}
+.work__btn--a {
+  color: #ffffff;
+  transition: 0.2s;
+}
+
+.work__btn--a:hover {
+  color: #48555b;
+  transition: 0.2s;
+}

@@ -37,4 +37,10 @@ h1 {
   font-size: 11px;
   line-height: 15px;
   color: #ffffff;
+  transition: 0.2s;
+}
+
+.header__a:hover {
+  color: #00a4e5;
+  transition: 0.2s;
 }

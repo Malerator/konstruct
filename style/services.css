@@ -1,0 +1,70 @@
+.services__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.services__header--h2 {
+  /* margin-right: 155px; */
+}
+
+.services__items {
+  margin-top: 78px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.services__card {
+  padding: 38px 23px;
+  border: 1px solid #e6e6e6;
+  max-width: 295px;
+  margin-bottom: 115px;
+}
+
+.services__h3 {
+  margin-top: 25px;
+  font-family: "OpenSans" sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  color: #48555b;
+}
+
+.services__p {
+  max-width: 405px;
+  font-family: "OpenSans" sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #48555b;
+}
+
+.services__card--text {
+  margin-top: 13px;
+  font-family: "Open Sans" sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 23px;
+  color: #48555b;
+}
+
+.services__btn {
+  background-color: #00a4e5;
+  padding: 11px 29px;
+  font-family: "OpenSans" sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.services__btn--a {
+  color: #ffffff;
+  transition: 0.2s;
+}
+
+.services__btn--a:hover {
+  color: #48555b;
+  transition: 0.2s;
+}
