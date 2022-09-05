@@ -4,6 +4,7 @@
 }
 
 .services__items {
+  gap: 30px;
   margin-top: 78px;
   display: flex;
   justify-content: space-between;
@@ -47,6 +48,7 @@
 .services__btn {
   background-color: #00a4e5;
   padding: 11px 29px;
+  border: 0;
   font-family: "OpenSans" sans-serif;
   font-size: 13px;
   font-weight: 700;

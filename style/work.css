@@ -18,6 +18,7 @@
 .work__btn {
   display: block;
   margin: 35px auto 0;
+  border: 0;
   background-color: #00a4e5;
   padding: 11px 26px;
   font-family: "OpenSans" sans-serif;
