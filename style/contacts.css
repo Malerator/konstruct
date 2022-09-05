@@ -1,9 +1,7 @@
 #contacts {
   background-color: #171819;
-}
-
-.contacts__form {
-  padding: 30px 342px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .contacts__h2 {
@@ -18,12 +16,13 @@
 
 .form {
   display: flex;
-  justify-content: flex-end;
+  justify-content: end;
   align-items: center;
 }
 
 .form__input {
   background-color: #ffffff;
+  border: 0;
   font-family: "OpenSans" sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -40,11 +39,36 @@
   line-height: 18px;
   letter-spacing: 0.5px;
   color: #ffffff;
-  padding: 12px 49px;
+  padding: 11px 49px;
   transition: 0.2s;
+  cursor: pointer;
 }
 
 .button:hover {
   color: #48555b;
   transition: 0.2s;
+}
+
+@media (max-width: 768px) {
+  .form {
+    margin-top: 5px;
+  }
+  .form__input {
+    padding: 6px 48px 5px 8px;
+  }
+  .button {
+    padding: 6px 25px 8px;
+    border: 0;
+  }
+}
+
+@media (max-width: 425px) {
+  .form {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .contacts__h2 {
+    display: block;
+    margin: 0 auto;
+  }
 }

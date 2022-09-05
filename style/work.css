@@ -1,5 +1,8 @@
 .work {
   background-image: url("../images/bg1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 120px 0 231px;
 }
 

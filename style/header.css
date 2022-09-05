@@ -2,7 +2,9 @@ header {
   background-color: #3a4f63;
   background-image: url("../images/bg.jpg");
   background-position: center;
-  padding: 42px 71px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 42px 0 71px;
 }
 .header__logo {
   display: block;

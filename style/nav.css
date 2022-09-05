@@ -2,8 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 24px 218px 24px 251px;
-  border-bottom: 1px solid #e6e6e6;
+  padding: 24px 0;
 }
 
 .nav {
@@ -26,4 +25,16 @@
 .nav__link:hover {
   color: #00a4e5;
   transition: 0.2s;
+}
+
+@media (max-width: 768px) {
+  .main__nav {
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 425px) {
+  .main__nav {
+    display: none;
+  }
 }

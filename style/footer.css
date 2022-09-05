@@ -12,3 +12,9 @@ footer {
   text-align: center;
   color: #ffffff;
 }
+
+@media (max-width: 320px) {
+  footer {
+    padding: 0 50px;
+  }
+}

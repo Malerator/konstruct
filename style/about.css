@@ -1,5 +1,9 @@
+#about {
+  border-top: 1px solid #e6e6e6;
+}
+
 .wrapper__about {
-  padding: 48px 0 129px;
+  padding: 48px 0 128px;
 }
 
 .about__h2 {
@@ -27,7 +31,7 @@
 
 .about__span {
   display: block;
-  font-family: "OpenSans" sans-serif;
+  font-family: "OpenSans_Bold" sans-serif;
   font-size: 20px;
   font-weight: 700;
   line-height: 27px;
@@ -97,4 +101,16 @@
 .card__content:hover {
   color: #00a4e5;
   transition: 0.2s;
+}
+
+@media (max-width: 768px) {
+  #about {
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 425px) {
+  .cards {
+    flex-direction: column;
+  }
 }
