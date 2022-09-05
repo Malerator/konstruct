@@ -3,9 +3,14 @@ html {
 }
 
 body {
+  font-family: "OpenSans-Regular", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  background-color: #ffffff;
+}
+
+h2 {
   font-family: "OpenSans-Bold", Arial, Helvetica, sans-serif;
   font-weight: 700;
-  background-color: #ffffff;
 }
 
 .container {

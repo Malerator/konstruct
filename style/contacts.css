@@ -34,14 +34,13 @@
 
 .button {
   background-color: #00a4e5;
-  font-family: "OpenSans" sans-serif;
+  font-family: "OpenSans-Bold";
   font-size: 13px;
   font-weight: 700;
   line-height: 18px;
   letter-spacing: 0.5px;
   color: #ffffff;
-  text-align: center;
-  padding: 11px 49px;
+  padding: 12px 49px;
   transition: 0.2s;
 }
 

@@ -20,6 +20,12 @@
   margin: 35px auto 0;
   background-color: #00a4e5;
   padding: 11px 26px;
+  font-family: "OpenSans" sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+  text-align: center;
 }
 .work__btn--a {
   color: #ffffff;
